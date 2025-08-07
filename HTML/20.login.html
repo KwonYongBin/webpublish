@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+        ul, li {
+            list-style: none;
+        }
+    </style>
 </head>
 <body>
+    <h1>Login Form</h1>
         <ul>
+            <li><i class="fa fa-user-circle" aria-hidden="true" style="font-size: 200px;"></i></li>
             <li>
+                <label for=""><i class="fa fa-envelope" aria-hidden="true"></i></label>
                 <input type="text" placeholder="Usename">
+            </li>
+            <li>
+                <label for=""><i class="fa fa-unlock-alt" aria-hidden="true"></i></label>
                 <input type="text" placeholder="Password">
             </li>
             <li>
-                <input type="radio">
-                <label for="">머시기머시기</label>
-                <input type="radio" style="display: inline-block;">
-                <label for="">머시기머시기</label>
+                <input type="radio" name="save">
+                <label for="">Remember me</label>
+                <input type="radio" name="save">
+                <label for="">Gargot your Password ?</label>
             </li>
             <li>
                 <button>Login</button>
             </li>
         </ul>
-    </div>
 </body>
+<script src="https://kit.fontawesome.com/0fe99cca5d.js" crossorigin="anonymous"></script>
 </html>
